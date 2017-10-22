@@ -1,0 +1,33 @@
+<html>
+  <head>
+
+    <style>
+    a{
+      text-decoration: none;
+      color:orange;
+      font-size: 25;
+      margin-right: 6;
+    }
+
+    a:visited{
+
+      text-decoration:none;
+      color:green;
+  }
+
+</style>
+
+  </head>
+    <body>
+      <h1>click only on green circles, press button when you're done</h1><br>
+      <form action="log.php" method="GET">
+        <button name="ids" onclick="this.value=clicked.join()" type="submit">Done clicking</button>
+      </form>
+      <p>Clicks:</p>
+      <script src="subreddits.js"></script>
+      <script src="spy.js"></script>
+
+
+
+    </body>
+</html>
